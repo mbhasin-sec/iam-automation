@@ -1,0 +1,16 @@
+name: Hello Pipeline
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        run: echo "This job ran on a machine I do not own."
+      - name: Show the runner identity
+        run: |
+          echo "I am running as:"
+          whoami
+          echo "On host:"
+          hostname
