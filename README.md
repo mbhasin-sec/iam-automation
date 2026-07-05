@@ -1,2 +1,2 @@
-# iam-automation
-Automation utilities for identity and access management workflows.
+# IAM Automation
+Utilities for identity and access management workflows.
